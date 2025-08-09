@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSphere Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+      
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Tech<span>Sphere</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle">🌓</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Exploring the Frontiers of Technology</h1>
+            <p>Your premier destination for in-depth tech analysis, cutting-edge tutorials, and comprehensive reviews in the ever-evolving world of technology.</p>
+            <div class="btn-container">
+                <a href="#" class="btn">Browse Articles</a>
+                <a href="#" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Join Our Tech Community</h2>
+            <p>Subscribe to our newsletter and receive weekly updates on the latest tech trends, exclusive content, and special offers.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" class="newsletter-input" required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="main-content">
+            <section class="posts">
+                <h2 class="section-title">Featured Articles</h2>
+                
+                <article class="post">
+                    <img src="https://source.unsplash.com/random/800x400/?ai" alt="The Rise of AI" class="post-img">
+                    <div class="post-content">
+                        <h2 class="post-title">The Rise of AI: How Machine Learning is Transforming Industries</h2>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar-alt"></i> June 15, 2023</span>
+                            <span><i class="far fa-user"></i> Sarah Johnson</span>
+                            <span><i class="far fa-comments"></i> 24 Comments</span>
+                        </div>
+                        <p class="post-excerpt">Artificial Intelligence has moved from science fiction to business reality at an astonishing pace. In this comprehensive analysis, we explore how machine learning algorithms are revolutionizing sectors from healthcare to finance. We'll examine case studies of successful AI implementations, discuss the ethical considerations, and predict where this technology is headed in the next five years...</p>
+                        <a href="#" class="read-more">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                        <div class="tags">
+                            <a href="#" class="tag">#ArtificialIntelligence</a>
+                            <a href="#" class="tag">#MachineLearning</a>
+                            <a href="#" class="tag">#TechTrends</a>
+                            <a href="#" class="tag">#Innovation</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="https://source.unsplash.com/random/800x400/?programming" alt="Web Development" class="post-img">
+                    <div class="post-content">
+                        <h2 class="post-title">The 2023 Web Developer Roadmap: Essential Skills for Modern Development</h2>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar-alt"></i> May 28, 2023</span>
+                            <span><i class="far fa-user"></i> Michael Chen</span>
+                            <span><i class="far fa-comments"></i> 18 Comments</span>
+                        </div>
+                        <p class="post-excerpt">The web development landscape changes rapidly, and staying current can feel overwhelming. This definitive guide breaks down exactly what skills you need to master in 2023, whether you're a beginner or seasoned developer. We cover everything from foundational HTML/CSS to advanced concepts like WebAssembly and Progressive Web Apps, complete with learning resources and project ideas to help you practice each skill...</p>
+                        <a href="#" class="read-more">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                        <div class="tags">
+                            <a href="#" class="tag">#WebDevelopment</a>
+                            <a href="#" class="tag">#Programming</a>
+                            <a href="#" class="tag">#CareerGrowth</a>
+                            <a href="#" class="tag">#JavaScript</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="https://source.unsplash.com/random/800x400/?cybersecurity" alt="Cybersecurity" class="post-img">
+                    <div class="post-content">
+                        <h2 class="post-title">Cybersecurity in 2023: Emerging Threats and How to Protect Your Business</h2>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar-alt"></i> April 10, 2023</span>
+                            <span><i class="far fa-user"></i> David Wilson</span>
+                            <span><i class="far fa-comments"></i> 32 Comments</span>
+                        </div>
+                        <p class="post-excerpt">As cyber threats grow more sophisticated, businesses of all sizes must stay vigilant. This in-depth article reveals the most dangerous emerging threats of 2023, including AI-powered attacks and supply chain vulnerabilities. We provide actionable strategies for protection, from employee training programs to advanced security architectures. Learn how companies like yours are implementing zero-trust frameworks and why multi-factor authentication is no longer optional...</p>
+                        <a href="#" class="read-more">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                        <div class="tags">
+                            <a href="#" class="tag">#Cybersecurity</a>
+                            <a href="#" class="tag">#DataProtection</a>
+                            <a href="#" class="tag">#Privacy</a>
+                            <a href="#" class="tag">#TechSecurity</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="https://source.unsplash.com/random/800x400/?blockchain" alt="Blockchain" class="post-img">
+                    <div class="post-content">
+                        <h2 class="post-title">Beyond Cryptocurrency: Practical Blockchain Applications Changing Industries</h2>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar-alt"></i> March 22, 2023</span>
+                            <span><i class="far fa-user"></i> Emma Rodriguez</span>
+                            <span><i class="far fa-comments"></i> 15 Comments</span>
+                        </div>
+                        <p class="post-excerpt">While Bitcoin and Ethereum dominate headlines, blockchain technology has far-reaching applications beyond digital currencies. Explore how distributed ledger technology is transforming supply chain management, healthcare records, digital identity verification, and even voting systems. We interview industry leaders implementing these solutions and analyze the potential for blockchain to create more transparent, efficient systems across multiple sectors...</p>
+                        <a href="#" class="read-more">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                        <div class="tags">
+                            <a href="#" class="tag">#Blockchain</a>
+                            <a href="#" class="tag">#Innovation</a>
+                            <a href="#" class="tag">#Decentralization</a>
+                            <a href="#" class="tag">#FutureTech</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="https://source.unsplash.com/random/800x400/?productivity" alt="Productivity" class="post-img">
+                    <div class="post-content">
+                        <h2 class="post-title">Developer Productivity: Tools and Techniques That Actually Work</h2>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar-alt"></i> February 18, 2023</span>
+                            <span><i class="far fa-user"></i> James Peterson</span>
+                            <span><i class="far fa-comments"></i> 29 Comments</span>
+                        </div>
+                        <p class="post-excerpt">After surveying over 500 professional developers, we've compiled the most effective productivity boosters in the tech industry. Discover the IDE plugins that save hours each week, learn about flow state optimization, and explore time management techniques tailored specifically for developers. We also debunk common productivity myths and reveal why some popular "hacks" might actually be slowing you down...</p>
+                        <a href="#" class="read-more">Continue Reading <i class="fas fa-arrow-right"></i></a>
+                        <div class="tags">
+                            <a href="#" class="tag">#Productivity</a>
+                            <a href="#" class="tag">#Programming</a>
+                            <a href="#" class="tag">#Tools</a>
+                            <a href="#" class="tag">#Workflow</a>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="pagination">
+                    <ul class="page-numbers">
+                        <li><a href="#" class="current">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3 class="widget-title">Search</h3>
+                    <form class="search-form">
+                        <input type="text" placeholder="Search articles..." class="search-input">
+                        <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="widget">
+                    <h3 class="widget-title">About Me</h3>
+                    <div class="about-widget">
+                        <img src="https://source.unsplash.com/random/300x300/?portrait" alt="Author">
+                        <p>Hi, I'm Alex, a senior developer and tech enthusiast with over 10 years of experience in the industry. I created TechSphere to share my knowledge and passion for technology.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-medium"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="#">Artificial Intelligence <span class="count">28</span></a></li>
+                        <li><a href="#">Web Development <span class="count">45</span></a></li>
+                        <li><a href="#">Cybersecurity <span class="count">32</span></a></li>
+                        <li><a href="#">Cloud Computing <span class="count">19</span></a></li>
+                        <li><a href="#">Data Science <span class="count">27</span></a></li>
+                        <li><a href="#">Mobile Development <span class="count">15</span></a></li>
+                        <li><a href="#">Blockchain <span class="count">12</span></a></li>
+                        <li><a href="#">DevOps <span class="count">18</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="widget">
+                    <h3 class="widget-title">Popular Posts</h3>
+                    <div class="recent-post">
+                        <img src="https://source.unsplash.com/random/100x100/?javascript" alt="JavaScript" class="recent-post-img">
+                        <div>
+                            <h4 class="recent-post-title"><a href="#">Mastering ES6: Modern JavaScript Features You Need to Know</a></h4>
+                            <div class="recent-post-date">May 15, 2023</div>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <img src="https://source.unsplash.com/random/100x100/?react" alt="React" class="recent-post-img">
+                        <div>
+                            <h4 class="recent-post-title"><a href="#">React 18: What's New and How to Upgrade</a></h4>
+                            <div class="recent-post-date">April 28, 2023</div>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <img src="https://source.unsplash.com/random/100x100/?python" alt="Python" class="recent-post-img">
+                        <div>
+                            <h4 class="recent-post-title"><a href="#">Python for Data Analysis: Pandas vs. Polars Performance Comparison</a></h4>
+                            <div class="recent-post-date">April 10, 2023</div>
+                        </div>
+                    </div>
+                    <div class="recent-post">
+                        <img src="https://source.unsplash.com/random/100x100/?server" alt="Server" class="recent-post-img">
+                        <div>
+                            <h4 class="recent-post-title"><a href="#">Serverless Architecture: Benefits and Implementation Challenges</a></h4>
+                            <div class="recent-post-date">March 22, 2023</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h3 class="widget-title">Popular Tags</h3>
+                    <div class="popular-tags">
+                        <a href="#" class="tag">JavaScript</a>
+                        <a href="#" class="tag">React</a>
+                        <a href="#" class="tag">Python</a>
+                        <a href="#" class="tag">AI</a>
+                        <a href="#" class="tag">Machine Learning</a>
+                        <a href="#" class="tag">Cloud</a>
+                        <a href="#" class="tag">AWS</a>
+                        <a href="#" class="tag">Docker</a>
+                        <a href="#" class="tag">Kubernetes</a>
+                        <a href="#" class="tag">Security</a>
+                        <a href="#" class="tag">DevOps</a>
+                        <a href="#" class="tag">TypeScript</a>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <h3 class="widget-title">Instagram Feed</h3>
+                    <div class="instagram-feed">
+                        <div class="instagram-item">
+                            <img src="https://source.unsplash.com/random/300x300/?tech" alt="Tech">
+                        </div>
+                        <div class="instagram-item">
+                            <img src="https://source.unsplash.com/random/300x300/?code" alt="Code">
+                        </div>
+                        <div class="instagram-item">
+                            <img src="https://source.unsplash.com/random/300x300/?developer" alt="Developer">
+                        </div>
+                        <div class="instagram-item">
+                            <img src="https://source.unsplash.com/random/300x300/?computer" alt="Computer">
+                        </div>
+                        <div class="instagram-item">
+                            <img src="https://source.unsplash.com/random/300x300/?laptop" alt="Laptop">
+                        </div>
+                        <div class="instagram-item">
+                            <img src="https://source.unsplash.com/random/300x300/?office" alt="Office">
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3 class="footer-title">TechSphere</h3>
+                    <div class="footer-about">
+                        <p>TechSphere is a leading technology blog dedicated to providing high-quality content about web development, artificial intelligence, cybersecurity, and emerging technologies.</p>
+                        <p>Our mission is to educate and inspire the next generation of technologists.</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Artificial Intelligence</a></li>
+                        <li><a href="#">Cybersecurity</a></li>
+                        <li><a href="#">Cloud Computing</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Mobile Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley, CA 94025</li>
+                        <li><i class="fas fa-envelope"></i> info@techsphere.blog</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 5PM PST</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 TechSphere. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js">
+      
+    </script>
+</body>
+</html>
